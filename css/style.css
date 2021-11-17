@@ -1,0 +1,149 @@
+/* things */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1080px;
+  font-family: sans-serif;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* header */
+
+.logo {
+  width: 200px;
+}
+
+.navigation {
+  color: gray;
+  text-transform: uppercase;
+}
+
+li {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 100px;
+  margin-right: 10px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/banner.jpg);
+  height: 500px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.description {
+  min-height: 100px;
+  width: 600px;
+  color: rgba(255, 255, 255);
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+}
+
+/* text sizes */
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: gray;
+}
+
+/* bottom */
+
+.title {
+  line-height: 40px;
+  font-size: 15px;
+  color: gray;
+}
+
+.images {
+  min-height: 600px;
+  background-color: transparent;
+}
+
+.sidebox {
+  float: left;
+  height: 250px;
+  width: calc(25% - 20px);
+  background-color: transparent;
+}
+
+.centerbox {
+  float: left;
+  height: 250px;
+  width: 50%;
+  background-color: transparent;
+  margin: 0 20px;
+}
+
+.left-image {
+  height: 250px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/img-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+.center-image {
+  height: 250px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/banner-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.right-image {
+  height: 250px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/img-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.heart {
+  font-size: larger;
+  color: red;
+}
